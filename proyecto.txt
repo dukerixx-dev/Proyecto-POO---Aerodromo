@@ -1,0 +1,4 @@
+El proyecto pide realizar un código para una empresa de aerolinia que administre 
+y gestione el pago de pasajes por persona y encomienda. Lo que pide el codigo es:
+
+-
