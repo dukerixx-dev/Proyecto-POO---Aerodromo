@@ -39,8 +39,7 @@ y gestione el pago de pasajes por persona y encomienda. Lo que pide el codigo es
 
 -Tiene que haber minimo 7 dias de actividad en el registro.
 
-<<<<<<< HEAD
 -el los años 600.000 pum pum pum 
-=======
 -Prueba de pull para el maikel.
->>>>>>> 736c8de7691706cd8857e6da489e931dc9f03b36
+
+-prueba de push
