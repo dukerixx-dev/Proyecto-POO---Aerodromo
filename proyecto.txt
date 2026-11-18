@@ -5,23 +5,20 @@ y gestione el pago de pasajes por persona y encomienda. Lo que pide el codigo es
 
 -Cada destino tendra su propio costo dependiendo si el pasaje es de Pasajero o encomienda.
 
--El personal puede recibir una llamada de reserva y este va a revisar la disponibilidad del 
- vuelo segun lo indicado por el pasajero.
-
 -Los vuelos son diarios, pero los horarios pueden variar segun condiciones atmosfericas o 
  temas logisticos (podriamos usar random).
 
 -Hay 3 tipos de avion con sus respectiva capacidad de pasajero y capacidad de peso, el personal decide 
  que asiento ocupara el pasajero segun el tipo de avion escogido en cada vuelo.
 
--En caso de encomienda, el cliente enviara el coso al aerodromo y el personal calculara el precio
- segun el peso y destinacion, entregando la fecha de entrega segun la capacidad de carga del avion
- y los vuelos disponibles.
- (El personal puede recibir una encomienda en el aerodromo entregado por el pasajero indicado con lugar 
- de destino, y el personal se encargará de calcular el precio segun el peso y la destinacion de la encomienda, 
- y le informara al pasajero la fecha de entrega segun los vuelos disponibles y la capacidad del avion)
+-El personal puede recibir una llamada de reserva y este va a revisar la disponibilidad del 
+ vuelo segun lo indicado por el pasajero, si esta disponible el vuelo o no se lo informará al pasajero.
 
--En cualquiera de ambos casos, el personal informara al pasajero el precio de para la confirmacion de reserva,
+-El personal puede recibir una encomienda en el aerodromo entregado por el pasajero indicado con lugar 
+ de destino, y el personal se encargará de calcular el precio segun el peso y la destinacion de la encomienda, 
+ y le informara al pasajero la fecha de entrega segun los vuelos disponibles y la capacidad del avion.
+
+-En cualquiera de ambos casos, el personal informara al pasajero el precio para la confirmacion de reserva,
  y se procederá al pago del servicio indicando el medio de pago y se realizará el registro de
  ventas de servicio.
 
@@ -38,5 +35,3 @@ y gestione el pago de pasajes por persona y encomienda. Lo que pide el codigo es
  extremos.
 
 -Tiene que haber minimo 7 dias de actividad en el registro.
-
--Prueba de pull para el maikel.
