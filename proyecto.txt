@@ -1,4 +1,40 @@
-El proyecto pide realizar un código para una empresa de aerolinia que administre 
+El proyecto pide realizar un código para una empresa de aerolinia de viajes, que administre 
 y gestione el pago de pasajes por persona y encomienda. Lo que pide el codigo es:
 
--
+-Este centrado en el personal que en el cliente.
+
+-Cada destino tendra su propio costo dependiendo si el pasaje es de Pasajero o encomienda.
+
+-El personal puede recibir una llamada de reserva y este va a revisar la disponibilidad del 
+ vuelo segun lo indicado por el pasajero.
+
+-Los vuelos son diarios, pero los horarios pueden variar segun condiciones atmosfericas o 
+ temas logisticos (podriamos usar random).
+
+-Hay 3 tipos de avion con sus respectiva capacidad de pasajero y capacidad de peso, el personal decide 
+ que asiento ocupara el pasajero segun el tipo de avion escogido en cada vuelo.
+
+-En caso de encomienda, el cliente enviara el coso al aerodromo y el personal calculara el precio
+ segun el peso y destinacion, entregando la fecha de entrega segun la capacidad de carga del avion
+ y los vuelos disponibles.
+ (El personal puede recibir una encomienda en el aerodromo entregado por el pasajero indicado con lugar 
+ de destino, y el personal se encargará de calcular el precio segun el peso y la destinacion de la encomienda, 
+ y le informara al pasajero la fecha de entrega segun los vuelos disponibles y la capacidad del avion)
+
+-En cualquiera de ambos casos, el personal informara al pasajero el precio de para la confirmacion de reserva,
+ y se procederá al pago del servicio indicando el medio de pago y se realizará el registro de
+ ventas de servicio.
+
+-Si hay clientes con más de 10 vuelos hechos, el personal puede darle un descuento del 10%.
+
+-Si hay un estado de emergencia, se puede obviar el pago de pasaje a personal de emergencias.
+
+-El gerente puede revisar el resumen de ventas diarios y la cantidad de vuelos en servicio con su 
+ disponibilidad. 
+
+-El gerente tiene la potestad de incluir vuelos extraordinarios por motivos urgentes.
+
+-En casos muy excepcionales, el gerente puede indicar un descuento de hasta un 100% a los clientes en casos
+ extremos.
+
+-Tiene que haber minimo 7 dias de actividad en el registro.
