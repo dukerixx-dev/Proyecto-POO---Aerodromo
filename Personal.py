@@ -1,2 +1,4 @@
 class Personal:
-    pass
+    def ___init__(self, rut, nombre):
+        self.rut = rut
+        self.nombre = nombre

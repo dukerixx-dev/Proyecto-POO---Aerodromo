@@ -1,3 +1,5 @@
-class Gerente:
-    def __init__(self):
-        pass
+from Personal import Personal
+
+class Gerente(Personal):
+    pass
+        
