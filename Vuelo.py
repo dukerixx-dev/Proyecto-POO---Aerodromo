@@ -6,3 +6,5 @@ class Vuelo:
         self.fecha = fecha
         self.hora = hora
         self.estado = estado
+        self.reservas = []
+        self.encomiendas = []
